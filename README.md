@@ -11,10 +11,11 @@ Prerequisits:
 
 ### Google Cloud platform
 1. Go to https://console.cloud.google.com/apis/dashboard 
-2. Enable "Admin SDK API"
+2. Click "Enbale API & Services" and enable "Admin SDK API"
 <img width="696" alt="image" src="https://user-images.githubusercontent.com/5716798/163975203-5086dd0b-12ff-4261-b5d3-aa4c129156b2.png">
 3. Open "Credentials" and add new OAuth 2.0 credentials
-![image](https://user-images.githubusercontent.com/5716798/163975611-9efd192c-9f34-47ac-a0b3-1dcca10d0ce4.png)
+<img width="696" alt="image" src="https://user-images.githubusercontent.com/5716798/163975611-9efd192c-9f34-47ac-a0b3-1dcca10d0ce4.png">
+
 
 
 
