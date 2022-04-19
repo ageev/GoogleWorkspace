@@ -20,7 +20,7 @@ Prerequisits:
 6. click "Save" and save client ID & client Secret or click "download JSON"
 
 ### Using Postman
-1. Open postman
+1. Open postman (you can use the template file from this repo)
 2. 
 
 
