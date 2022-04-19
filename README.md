@@ -17,12 +17,11 @@ Prerequisits:
 <img width="696" alt="image" src="https://user-images.githubusercontent.com/5716798/163975611-9efd192c-9f34-47ac-a0b3-1dcca10d0ce4.png">
 4. Choose Application Type == "Web application"
 5. set "Authorized redirect URL" to ```https://oauth.pstmn.io/v1/callback```
-6. click "Save" and save client ID & client Secret
-
-
-
+6. click "Save" and save client ID & client Secret or click "download JSON"
 
 ### Using Postman
+1. Open postman
+2. 
 
 
 ### Links
