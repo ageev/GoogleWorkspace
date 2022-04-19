@@ -13,9 +13,11 @@ Prerequisits:
 1. Go to https://console.cloud.google.com/apis/dashboard 
 2. Click "Enbale API & Services" and enable "Admin SDK API"
 <img width="696" alt="image" src="https://user-images.githubusercontent.com/5716798/163975203-5086dd0b-12ff-4261-b5d3-aa4c129156b2.png">
-3. Open "Credentials" and add new OAuth 2.0 credentials
+3. Open "Credentials" and add new credentials. Type - "OAuth client ID"
 <img width="696" alt="image" src="https://user-images.githubusercontent.com/5716798/163975611-9efd192c-9f34-47ac-a0b3-1dcca10d0ce4.png">
-
+4. Choose Application Type == "Web application"
+5. set "Authorized redirect URL" to ```https://oauth.pstmn.io/v1/callback```
+6. click "Save" and save client ID & client Secret
 
 
 
