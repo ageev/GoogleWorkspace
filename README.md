@@ -21,8 +21,13 @@ Prerequisits:
 
 ### Using Postman
 1. Open postman (you can use the template file from this repo)
-2. 
+2. See StackOverflow article for Postman configuration
+<img width="1258" alt="image" src="https://user-images.githubusercontent.com/5716798/164022476-5888b953-d0f9-46cd-98f8-8f62999f5102.png">
 
+this should be the scope: https://www.googleapis.com/auth/admin.reports.audit.readonly
+
+3. Click "Get new access token", new browser window will open and you need to authorize app access
+4. After that an access token will be saved in Postman's memory. You need to refresh it every few hours. 
 
 ### Links
 1. StackOverflow page on using Postman with Google API https://stackoverflow.com/questions/32076503/using-postman-to-access-oauth-2-0-google-apis
