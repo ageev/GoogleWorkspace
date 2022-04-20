@@ -26,6 +26,8 @@ Prerequisits:
 
 this should be the scope: https://www.googleapis.com/auth/admin.reports.audit.readonly
 
+This is the GET request: https://admin.googleapis.com/admin/reports/v1/activity/users/all/applications/login?eventName=login_verification&maxResults=1000
+
 3. Click "Get new access token", new browser window will open and you need to authorize app access
 4. After that an access token will be saved in Postman's memory. You need to refresh it every few hours. 
 
