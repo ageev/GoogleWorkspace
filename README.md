@@ -29,6 +29,11 @@ this should be the scope: https://www.googleapis.com/auth/admin.reports.audit.re
 3. Click "Get new access token", new browser window will open and you need to authorize app access
 4. After that an access token will be saved in Postman's memory. You need to refresh it every few hours. 
 
+### Working with output
+It's much easier to work with CSV/XLS instead of JSON. 
+Excel on Windows allows you to import JSON directly, but on macOS you need to "flatten" the JSON first, and then use Excel magic to get the data you want. 
+In my case I was looking for "login_verification" events, where login_challenge_method == idv_preregistered_phone. This gave me all users who have used SMS/call based auth in the past. 
+
 ### Links
 1. StackOverflow page on using Postman with Google API https://stackoverflow.com/questions/32076503/using-postman-to-access-oauth-2-0-google-apis
 2. Google's documentation on login events https://developers.google.com/admin-sdk/reports/v1/appendix/activity/login
